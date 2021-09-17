@@ -13,9 +13,12 @@ struct Rectangle {
 }
 
 fn main() {
+    //实例化一个点
     let point1 = Point { x: 3.0, y: 5.0 };
     println!("{:?}", point1);
+    //Use func rect_area make a Rectangle
     let rec1 = square(point1, 5.0);
+    //Caculate area of Rectangle
     let area = rect_area(rec1);
     println!("The area of Rectangle is {}", area);
 }
