@@ -14,7 +14,6 @@ impl List {
         // `Nil` 为 `List` 类型（译注：因 `Nil` 的完整名称是 `List::Nil`）
         Nil
     }
-
     // 处理一个 List，在其头部插入新元素，并返回该 List
     fn prepend(self, elem: u32) -> List {
         // `Cons` 同样为 List 类型
