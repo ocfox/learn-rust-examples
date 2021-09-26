@@ -1,6 +1,6 @@
 use std::fmt; // 导入 `fmt` 模块。
 
-// 定义一个包含单个 `Vec` 的结构体 `List`。
+// 定义一个包含单个 `Vec` 的结构体 `List`。dddd
 struct List(Vec<i32>);
 
 impl fmt::Display for List {
